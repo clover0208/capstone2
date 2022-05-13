@@ -1,0 +1,496 @@
+#water{
+width:60px;
+position:absolute;
+left:335px;
+top:180px;
+animation: scale 2000ms ease-in-out forwards;
+animation-iteration-count: infinite;
+}
+#watertwo{
+    width:60px;
+    position:absolute;
+    left:383px;
+    top:180px;
+    animation: scale 2000ms ease-in-out forwards;
+    animation-iteration-count: infinite;
+    }
+#waterthree{
+        width:60px;
+        position:absolute;
+        left:383px;
+        top:230px;
+        animation: scale 2000ms ease-in-out forwards;
+        animation-iteration-count: infinite;
+        }
+#waterfour{
+            width:60px;
+            position:absolute;
+            left:335px;
+            top:230px;
+            animation: scale 2000ms ease-in-out forwards;
+            animation-iteration-count: infinite;
+            }
+
+#toilet{
+    transform: rotate(45deg);
+                width:70px;
+                position:absolute;
+                left:60px;
+                top:255px;
+                animation: toilet 2000ms ease-in-out forwards;
+                animation-iteration-count: infinite;
+            }
+
+#frige{
+                            width:75px;
+                            position:absolute;
+                            left:291px;
+                            top:13px;
+                          
+                        }
+#frige2{
+                            width:75px;
+                            position:absolute;
+                            left:364px;
+                            top:13px;
+                          
+                        }
+                        #currentlayout{
+                          width:170px;
+                            position:absolute;
+                            left:160px;
+                            top:13px;
+                        }
+                        #bigwhite{
+                          /* width:170px; */
+                            position:absolute;
+                            left:-300px;
+                            top:-300px;
+                        }
+
+#bed{
+                            width:170px;
+                            position:absolute;
+                            left:17px;
+                            top:13px;
+                          
+                        }
+
+#video-103{
+                            display:none;
+                            width:150px;
+                            position:absolute;
+                            left:165px;
+                            top:140px;
+                          
+                        }
+                        #video-1032{
+                          display:none;
+                          width:150px;
+                          position:absolute;
+                          left:455px;
+                          top:140px;
+                        
+                      }
+                        #video-103-2{
+                          display:none;
+                          width:150px;
+                          position:absolute;
+                          left:px;
+                          top:240px;
+                        
+                      }
+
+#door{
+                            display:none;
+                            width:150px;
+                            position:absolute;
+                            left:420px;
+                            top:280px;
+}
+
+
+#peope{
+  /* display:none; */
+  width:60px;
+  position:absolute;
+  left:500px;
+  top:380px;
+}
+
+#cat {
+  width:150px;
+  position:absolute;
+  left:180px;
+  top:294px;
+}
+#homebar-103-1{
+  width:20px;
+  height:320px;
+  position:absolute;
+  left:480px;
+  top:797px;
+}
+#homebar-103-2{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:235px;
+  top:555px;
+     transform: rotate(-90deg);
+}
+#homebar-103-3{
+  width:20px;
+  height:320px;
+  position:absolute;
+  left:-10px;
+  top:797px;
+}
+#yoga103{
+  width:250px;
+  position:absolute;
+  left:70px;
+  top:937px;
+}
+#tree103{
+  width:80px;
+  position:absolute;
+  left:350px;
+  top:837px;
+}
+/* #homebar-103-3{
+  width:20px;
+  height:450px;
+  position:absolute;
+  left:-10px;
+  top:123px;
+    
+} */
+#homebar-102-1{
+  width:20px;
+  height:450px;
+  position:absolute;
+  left:480px;
+  top:-23px;
+}
+#homebar-102-2{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:235px;
+  top:-265px;
+     transform: rotate(-90deg);
+}
+#homebar-102-3{
+  width:20px;
+  height:450px;
+  position:absolute;
+  left:-10px;
+  top:-23px;
+     /* transform: rotate(-90deg); */
+}
+#homebar-102-4{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:235px;
+  top:200px;
+     transform: rotate(-90deg);
+}
+
+#homebar-401-1{
+  width:20px;
+  height:450px;
+  position:absolute;
+  left:1080px;
+  top:-23px;
+}
+#homebar-401-2{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:840px;
+  top:-265px;
+     transform: rotate(-90deg);
+}
+#homebar-401-3{
+  width:20px;
+  height:450px;
+  position:absolute;
+  left:595px;
+  top:-23px;
+     /* transform: rotate(-90deg); */
+}
+#homebar-401-4{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:840px;
+  top:200px;
+     transform: rotate(-90deg);
+}
+
+
+#homebar-601-1{
+  width:20px;
+  height:450px;
+  position:absolute;
+  left:1080px;
+  top:543px;
+}
+#homebar-601-2{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:840px;
+  top:765px;
+     transform: rotate(-90deg);
+}
+#homebar-601-3{
+  width:20px;
+  height:450px;
+  position:absolute;
+  left:595px;
+  top:543px;
+     /* transform: rotate(-90deg); */
+}
+#homebar-601-4{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:840px;
+  top:300px;
+     transform: rotate(-90deg);
+}
+
+#granny-tv{
+  width:100px;
+  /* height:470px; */
+  position:absolute;
+  left:940px;
+  top:880px;
+}
+#granny-desk{
+  width:240px;
+  /* height:240px; */
+  position:absolute;
+  left:680px;
+  top:630px;
+}
+#granny-window{
+  width:140px;
+  /* height:470px; */
+  position:absolute;
+  left:920px;
+  top:530px;
+}
+
+/* 
+#doorwhole{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:380px;
+  top:280px;
+} */
+
+#people{
+  position:absolute;
+  left:680px;
+  top:330px;
+}
+
+#secondroom{
+  position:absolute;
+  left:600px;
+  top:-192px;
+}   
+
+#room2ball{
+  width:70px;
+  position:absolute;
+  left:900px;
+  top:292px;
+  animation: toilet 2000ms ease-in-out forwards;
+  animation-iteration-count: infinite;
+}   
+#room2-ball-video{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:880px;
+  top:192px;
+} 
+#room2ball2{
+  width:40px;
+  position:absolute;
+  left:950px;
+  top:292px;
+  animation: toilet 2000ms ease-in-out forwards;
+  animation-iteration-count: infinite;
+} 
+#room2-working{
+  width:80px;
+  position:absolute;
+  left:750px;
+  top:102px;
+  /* animation: toilet 2000ms ease-in-out forwards; */
+  /* animation-iteration-count: infinite; */
+} 
+#susiedaughter{
+  width:50px;
+  position:absolute;
+  left:680px;
+  top:192px;
+}
+#room2-storage-video{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:880px;
+  top:-32px;
+}
+#room2-working-video{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:690px;
+  top:192px;
+}
+
+#room2-food-store{
+  width:250px;
+  position:absolute;
+  left:855px;
+  top:-50px;
+  animation: toilet 20000ms ease-in-out forwards;
+  animation-iteration-count: infinite;
+} 
+
+@keyframes scale {
+                0% {
+                  transform: scale(0.8);
+                }
+                50% {
+                    transform: scale(0.9);
+                  }
+                  100% {
+                    transform: scale(0.8);
+                  }
+              }
+@keyframes  toilet {
+                0% {
+                  transform: scale(0.7);
+                }
+                50% {
+                    transform: scale(0.8);
+                  }
+                  100% {
+                    transform: scale(0.7);
+                  }
+              }
+
+
+              #img {
+                height: 40px;
+                transition: transform 0.2s;
+              }
+             
+              
+              *{
+                margin:0;
+                padding:0;
+              }
+              
+              h2 {
+                font-weight: bold;
+                font-size: 1.2rem;
+              }
+              p {
+                font-family: 'Reenie Beanie';
+                font-size: 1rem;
+              }
+              ul,li{
+                list-style:none;
+              }
+              ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+              }
+              ul li a{
+                text-decoration:none;
+                color:#000;
+                background:#ffc;
+                display:block;
+                height:8em;
+                width:8em;
+                padding:1em;
+                box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+                /* transform: rotate(-6deg); */
+                transition: transform .15s linear;
+              }
+              
+              ul li:nth-child(even) a{
+                /* transform:rotate(4deg); */
+                position:relative;
+                top:5px;
+                background:#cfc;
+              }
+              ul li:nth-child(3n) a{
+                /* transform:rotate(-3deg); */
+                position:relative;
+                top:-5px;
+                background:#ccf;
+              }
+              ul li:nth-child(5n) a{
+                /* transform:rotate(5deg); */
+                position:relative;
+                top:-10px;
+              }
+              
+              ul li a:hover,ul li a:focus{
+                box-shadow:10px 10px 7px rgba(0,0,0,.7);
+                transform: scale(1.25);
+                position:relative;
+                z-index:5;
+              }
+              
+              ul li{
+                margin:1em;
+              }
+
+#thirdroom-1{
+  position:absolute;
+left:0px;
+top:475px;
+}
+#firstroom{
+  display:none;
+}
+#room102{
+  position:relative;
+  left:0px;
+  top:270px;
+}
+#thirdroom-2{
+  position:absolute;
+left:450px;
+top:475px;
+}
+#thirdroom-3{
+  position:absolute;
+left:650px;
+top:475px;
+}
+#room1sticker{
+position:absolute;
+left:170px;
+top:310px;
+              }
+        
+              #room2sticker{
+                position:absolute;
+                left:650px;
+                top:30px;
+                              }
