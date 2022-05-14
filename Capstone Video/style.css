@@ -71,8 +71,8 @@ animation-iteration-count: infinite;
 #bed{
                             width:170px;
                             position:absolute;
-                            left:17px;
-                            top:13px;
+                            left:28px;
+                            top:-20px;
                           
                         }
 
@@ -84,6 +84,23 @@ animation-iteration-count: infinite;
                             top:140px;
                           
                         }
+
+#video-103-cat{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:75px;
+  top:0px;
+
+}
+#video-103-cat2{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:375px;
+  top:0px;
+
+}
                         #video-1032{
                           display:none;
                           width:150px;
@@ -92,14 +109,22 @@ animation-iteration-count: infinite;
                           top:140px;
                         
                       }
-                        #video-103-2{
+                        #video-103-bathroom{
                           display:none;
                           width:150px;
                           position:absolute;
-                          left:px;
-                          top:240px;
+                          left:-100px;
+                          top:200px;
                         
                       }
+                      #video-103-22{
+                        display:none;
+                        width:150px;
+                        position:absolute;
+                        left:150px;
+                        top:200px;
+                      
+                    }
 
 #door{
                             display:none;
@@ -121,8 +146,8 @@ animation-iteration-count: infinite;
 #cat {
   width:150px;
   position:absolute;
-  left:180px;
-  top:294px;
+  left:230px;
+  top:54px;
 }
 #homebar-103-1{
   width:20px;

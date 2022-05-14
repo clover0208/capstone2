@@ -62,15 +62,6 @@ document.addEventListener("keydown", (ev) => {
     $("body").on("keydown", function(e) {
       if (e.which == 37) {
         $("#people").attr("src", "./people_left.png");
-        if(pos.x<200&&pos.x>100){
-          if(pos.y<-100&&pos.y>-260){
-          // if(pos.y<210&&pos.y>-265){
-          document.getElementById('video-103').style.display='block';
-        }
-        }
-        else{
-          document.getElementById('video-103').style.display='none';
-        }
       }
     });
   
@@ -86,17 +77,6 @@ document.addEventListener("keydown", (ev) => {
     $("body").on("keydown", function(e) {
       if (e.which == 39) {
         $("#people").attr("src", "./people_right.png");
-        if(pos.x<200&&pos.x>100){
-          if(pos.y<-100&&pos.y>-260){
-          // if(pos.y<210&&pos.y>-265){
-          document.getElementById('video-1032').style.display='block';
-        }
-          // document.getElementById('people').style.display='none';
-        // }
-        }
-        else{
-          document.getElementById('video-1032').style.display='none';
-        }
       }
     });
   
@@ -106,6 +86,73 @@ document.addEventListener("keydown", (ev) => {
       }
     });
   });
+
+  //room1
+  if(pos.x<240&&pos.x>150){
+    if(pos.y<-60&&pos.y>-270){
+    document.getElementById('video-1032').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-1032').style.display='none';
+  }
+
+  if(pos.x>105&&pos.x<150){
+    if(pos.y<-60&&pos.y>-270){
+    document.getElementById('video-103').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-103').style.display='none';
+  }
+
+  if(pos.x<245&&pos.x>170){
+    if(pos.y>-25&&pos.y<55){
+    // if(pos.y<210&&pos.y>-265){
+    document.getElementById('video-103-cat').style.display='block';
+  }
+    // document.getElementById('people').style.display='none';
+  // }
+  }
+  else{
+    document.getElementById('video-103-cat').style.display='none';
+  }
+
+  if(pos.x>245&&pos.x<330){
+    if(pos.y>-25&&pos.y<55){
+    // if(pos.y<210&&pos.y>-265){
+    document.getElementById('video-103-cat2').style.display='block';
+  }
+    // document.getElementById('people').style.display='none';
+  // }
+  }
+  else{
+    document.getElementById('video-103-cat2').style.display='none';
+  }
+
+  if(pos.x>390&&pos.x<455){
+    if(pos.y>-315&&pos.y<-160){
+    // if(pos.y<210&&pos.y>-265){
+    document.getElementById('video-103-bathroom').style.display='block';
+  }
+    // document.getElementById('people').style.display='none';
+  // }
+  }
+  else{
+    document.getElementById('video-103-bathroom').style.display='none';
+  }
+  
+  if(pos.x>455&&pos.x<510){
+    if(pos.y>-315&&pos.y<-160){
+    // if(pos.y<210&&pos.y>-265){
+    document.getElementById('video-103-22').style.display='block';
+  }
+    // document.getElementById('people').style.display='none';
+  // }
+  }
+  else{
+    document.getElementById('video-103-22').style.display='none';
+  }
 
 
 
@@ -144,16 +191,16 @@ document.addEventListener("keydown", (ev) => {
   EL_img.style.transform = `translate(${pos.x}px, ${pos.y}px)`
 
   console.log(pos.x,pos.y)
-  //room-1-door
-  if(pos.x<5&&pos.x>-54){
-    // document.getElementById('door').style.display='block';
-  }
-  if(pos.x<-55){
-    document.getElementById('door').style.display='none';
-  }
-  if(pos.x>5){
-    // document.getElementById('door').style.display='none';
-  }
+  // //room-1-door
+  // if(pos.x<5&&pos.x>-54){
+  //   // document.getElementById('door').style.display='block';
+  // }
+  // if(pos.x<-55){
+  //   document.getElementById('door').style.display='none';
+  // }
+  // if(pos.x>5){
+  //   // document.getElementById('door').style.display='none';
+  // }
 
 //room-1-water
 
@@ -166,47 +213,11 @@ document.addEventListener("keydown", (ev) => {
   //   document.getElementById('people').style.display='block';
   // }
 
-  if(pos.x<-360&&pos.x>-390){
-    document.getElementById('video-103-2').style.display='block';
-  }
-  if(pos.x<-390){
-    document.getElementById('video-103-2').style.display='none';
-  }
-  if(pos.x>-359){
-    document.getElementById('video-103-2').style.display='none';
-  }
 
-  //room2-ball
-  if(pos.x>400&&pos.x<410){
-    document.getElementById('room2-ball-video').style.display='block';
-  }
-  if(pos.x<400){
-    document.getElementById('room2-ball-video').style.display='none';
-  }
-  if(pos.x>410){
-    document.getElementById('room2-ball-video').style.display='none';
-  }
+
 
   //room2-storage
-  if(pos.y<-108&&pos.y>-118){
-    document.getElementById('room2-storage-video').style.display='block';
-  }
-  // if(pos.y>-108){
-  //   document.getElementById('room2-storage-video').style.display='none';
-  // }
-  // if(pos.y<-118){
-  //   document.getElementById('room2-storage-video').style.display='none';
-  // }
 
-  if(pos.x>160&&pos.x<170){
-    document.getElementById('room2-working-video').style.display='block';
-  }
-  if(pos.x<160){
-    document.getElementById('room2-working-video').style.display='none';
-  }
-  if(pos.x>170){
-    document.getElementById('room2-working-video').style.display='none';
-  }
 });
 
 $(document).ready(function () {
