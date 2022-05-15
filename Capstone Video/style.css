@@ -1,3 +1,4 @@
+
 #water{
 width:60px;
 position:absolute;
@@ -64,7 +65,7 @@ animation-iteration-count: infinite;
                         #bigwhite{
                           /* width:170px; */
                             position:absolute;
-                            left:-300px;
+                            left:-100px;
                             top:-300px;
                         }
 
@@ -223,6 +224,127 @@ animation-iteration-count: infinite;
      transform: rotate(-90deg);
 }
 
+
+#homebar-202-1{
+  width:20px;
+  height:340px;
+  position:absolute;
+  left:480px;
+  top:-195px;
+}
+#homebar-202-2{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:235px;
+  top:-435px;
+     transform: rotate(-90deg);
+}
+#homebar-202-3{
+  width:20px;
+  height:340px;
+  position:absolute;
+  left:-10px;
+  top:-195px;
+     /* transform: rotate(-90deg); */
+}
+#homebar-202-4{
+  width:20px;
+  height:470px;
+  position:absolute;
+  left:235px;
+  top:-90px;
+     transform: rotate(-90deg);
+}
+
+#room5-pic1{
+  width:150px;
+  position:relative;
+  left:35px;
+  top:-180px;
+  transform: rotate(360deg);
+}
+#room5-pic2{
+  width:150px;
+  position:relative;
+  left:225px;
+  top:-380px;
+  transform: rotate(360deg);
+}
+#room5-pic3{
+  width:150px;
+  position:relative;
+  left:310px;
+  top:-370px;
+  transform: rotate(360deg);
+}
+#room5-pic4{
+  width:150px;
+  position:relative;
+  left:155px;
+  top:-530px;
+  transform: rotate(360deg);
+}
+#room5-1{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:155px;
+  top:-130px;
+}
+#room5-12{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:-110px;
+  top:-130px;
+}
+
+#room5-2{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:285px;
+  top:30px;
+}
+#room5-22{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:10px;
+  top:30px;
+}
+
+#room5-3{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:455px;
+  top:5px;
+}
+#room5-32{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:160px;
+  top:5px;
+}
+
+#room5-4{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:375px;
+  top:-150px;
+}
+#room5-42{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:70px;
+  top:-150px;
+}
+
 #homebar-401-1{
   width:20px;
   height:450px;
@@ -310,6 +432,57 @@ animation-iteration-count: infinite;
   top:530px;
 }
 
+
+
+#homebar-604-1{
+  width:20px;
+  height:340px;
+  position:absolute;
+  left:1580px;
+  top:-195px;
+}
+#homebar-604-2{
+  width:20px;
+  height:400px;
+  position:absolute;
+  left:1375px;
+  top:-400px;
+     transform: rotate(-90deg);
+}
+#homebar-604-3{
+  width:20px;
+  height:340px;
+  position:absolute;
+  left:1165px;
+  top:-195px;
+     /* transform: rotate(-90deg); */
+}
+#homebar-604-4{
+  width:20px;
+  height:400px;
+  position:absolute;
+  left:1375px;
+  top:-50px;
+     transform: rotate(-90deg);
+}
+#home6-pic1{
+  width:100px;
+  position:absolute;
+  left:1300px;
+  top:100px;
+}
+#home6-pic2{
+  width:100px;
+  position:absolute;
+  left:1245px;
+  top:-50px;
+}
+#home6-pic3{
+  width:200px;
+  position:absolute;
+  left:1430px;
+  top:-200px;
+}
 /* 
 #doorwhole{
   display:none;
@@ -343,9 +516,18 @@ animation-iteration-count: infinite;
   display:none;
   width:150px;
   position:absolute;
-  left:880px;
+  left:1000px;
   top:192px;
 } 
+
+#room2-ball-video2{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:740px;
+  top:192px;
+} 
+
 #room2ball2{
   width:40px;
   position:absolute;
@@ -372,26 +554,81 @@ animation-iteration-count: infinite;
   display:none;
   width:150px;
   position:absolute;
-  left:880px;
+  left:1050px;
+  top:-32px;
+}
+#room2-storage-video2{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:740px;
   top:-32px;
 }
 #room2-working-video{
   display:none;
   width:150px;
   position:absolute;
-  left:690px;
-  top:192px;
+  left:840px;
+  top:42px;
+}
+#room2-working-video2{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:560px;
+  top:42px;
 }
 
 #room2-food-store{
-  width:250px;
+  width:180px;
   position:absolute;
-  left:855px;
-  top:-50px;
-  animation: toilet 20000ms ease-in-out forwards;
-  animation-iteration-count: infinite;
+  left:905px;
+  top:-30px;
+
 } 
 
+#room3-1{
+  display:none;
+  width:200px;
+  position:absolute;
+  left:530px;
+  top:702px;
+}
+#room3-12{
+  display:none;
+  width:200px;
+  position:absolute;
+  left:870px;
+  top:702px;
+}
+#room3-2{
+  display:none;
+  width:200px;
+  position:absolute;
+  left:730px;
+  top:872px;
+}
+#room3-22{
+  display:none;
+  width:200px;
+  position:absolute;
+  left:1050px;
+  top:872px;
+}
+#room3-3{
+  display:none;
+  width:200px;
+  position:absolute;
+  left:720px;
+  top:530px;
+}
+#room3-32{
+  display:none;
+  width:200px;
+  position:absolute;
+  left:1060px;
+  top:530px;
+}
 @keyframes scale {
                 0% {
                   transform: scale(0.8);
