@@ -330,6 +330,61 @@ document.addEventListener("keydown", (ev) => {
   }
 
 
+  if(pos.x>-930&&pos.x<-840){
+    if(pos.y>270&&pos.y<510){
+    document.getElementById('video-room6-12').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-room6-12').style.display='none';
+  }
+
+  if(pos.x>-1020&&pos.x<-930){
+    if(pos.y>270&&pos.y<510){
+    document.getElementById('video-room6-1').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-room6-1').style.display='none';
+  }
+
+
+  if(pos.x>-815&&pos.x<-780){
+    if(pos.y>210&&pos.y<270){
+    document.getElementById('video-room6-22').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-room6-22').style.display='none';
+  }
+
+  if(pos.x>-870&&pos.x<-815){
+    if(pos.y>210&&pos.y<270){
+    document.getElementById('video-room6-2').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-room6-2').style.display='none';
+  }
+
+  if(pos.x>-720&&pos.x<-690){
+    if(pos.y>240&&pos.y<310){
+    document.getElementById('video-room6-32').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-room6-32').style.display='none';
+  }
+
+  if(pos.x>-750&&pos.x<-720){
+    if(pos.y>240&&pos.y<310){
+    document.getElementById('video-room6-3').style.display='block';
+  }
+  }
+  else{
+    document.getElementById('video-room6-3').style.display='none';
+  }
+
   $(function() {
     var myRealUrl = "./people_down.png";
     $("body").on("keydown", function(e) {

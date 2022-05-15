@@ -466,22 +466,72 @@ animation-iteration-count: infinite;
      transform: rotate(-90deg);
 }
 #home6-pic1{
-  width:100px;
+  width:50px;
   position:absolute;
-  left:1300px;
-  top:100px;
+  left:1350px;
+  top:80px;
 }
 #home6-pic2{
-  width:100px;
+  width:50px;
   position:absolute;
   left:1245px;
-  top:-50px;
+  top:45px;
 }
 #home6-pic3{
   width:200px;
   position:absolute;
   left:1430px;
   top:-200px;
+}
+#home6-pic4{
+  width:80px;
+  position:absolute;
+  left:1250px;
+  top:-150px;
+}
+#video-room6-1{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:1250px;
+  top:-150px;
+}
+#video-room6-12{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:1580px;
+  top:-150px;
+}
+
+#video-room6-2{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:1190px;
+  top:0px;
+}
+#video-room6-22{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:1410px;
+  top:0px;
+}
+
+#video-room6-3{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:1090px;
+  top:-40px;
+}
+#video-room6-32{
+  display:none;
+  width:150px;
+  position:absolute;
+  left:1300px;
+  top:-40px;
 }
 /* 
 #doorwhole{
